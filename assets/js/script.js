@@ -10,7 +10,7 @@ $("#currentDay").text(time);
 
 
 
-// Save button
+// Save button to local storage
 $(".saveBtn").on("click", function(){
     // console.log($(this).parent().attr("id"))
     var hour = $(this).parent().attr("id")
@@ -20,6 +20,7 @@ $(".saveBtn").on("click", function(){
     localStorage.setItem(hour, JSON.stringify(content))
 })
 
+// Localstorage keys
 $("#9").children("textarea").val(JSON.parse(localStorage.getItem("9")))
 $("#10").children("textarea").val(JSON.parse(localStorage.getItem("10")))
 $("#11").children("textarea").val(JSON.parse(localStorage.getItem("11")))
