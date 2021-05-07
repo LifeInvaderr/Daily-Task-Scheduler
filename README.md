@@ -21,3 +21,5 @@ I actually enjoyed this project alot. I felt as though during the module work, I
 
 ## Anything I would update
 I would most likely update this project by adding a feature to transition into darkmode. I understand this would add nothing to the functionality of the page, however I believe that It would look neat to add to a project like this.
+
+Lastly, to update this page, I would add a timer to countdown git page to see if the time blocks need to be updated. I had gotten this to work on my end, however with gitpages, I am running into an issue as it would not want to load my code.
