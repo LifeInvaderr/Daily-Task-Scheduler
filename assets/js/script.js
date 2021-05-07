@@ -5,6 +5,21 @@ $(document).ready(function () {
     $("#currentDay").text(time);
 
 
+    // This is to make the function register the time blocks as soon as page is loaded
+    window.onload = function() {
+        checkTime();
+      };
+
+    // This is set to go through the function every 5 minutes, in case if someone wants to leave this tab open
+    setInterval(function () {
+        checkTime()
+    }, 1000 * 60 * 5);
+    // One second multiplied by 60 to make a minute then last number is to set timer to amount of mins. Just for ease of changing code.
+
+    function checkTime() {
+        console.log("bruh")
+
+
         // Color coded time blocks
         // 9am
         if (moment().isBefore(moment({ hour: 9, minute: 0 }))) {
@@ -158,6 +173,7 @@ $(document).ready(function () {
             $("#5").children("textarea").removeClass("bg-danger")
             $("#5").children("textarea").removeClass("bg-success")
         };
+    };
 
 
     // Save button to local storage
