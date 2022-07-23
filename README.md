@@ -22,7 +22,7 @@ Work day scheduler allows users to create a task list for the upcomming day. Set
 * Moment.js
 
 ## Installation
-To install this repository, please either clone or install the zip version.
+To install this repository, please either clone or install the zip file.
 
 ## Usage
 With Work Day Scheduler, it allows users to make and track their daily goals. With daily task scheduler, time blocks are marked for passed, current, and future.
